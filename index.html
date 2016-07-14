@@ -436,10 +436,10 @@
               </div>
               <div class="extra content">
                 <a class="left floated created">
-                  <span id="blog">
+                  <span id="homesite">
                   </span>
                 </a>
-                <a class="right floated created" href="https://github.com/Der-Eddy/blog">GitHub
+                <a class="right floated created" href="https://github.com/Der-Eddy/EddyDevg">GitHub
                 </a>
               </div>
             </div>
@@ -570,8 +570,8 @@
           console.log("GitHub API down?");
         }
                         );
-        $.getJSON( "https://api.github.com/repos/Der-Eddy/blog/stats/contributors", function( data ) {
-          $("#blog").append(data[0].total + " commits");
+        $.getJSON( "https://api.github.com/repos/Der-Eddy/EddyDev/stats/contributors", function( data ) {
+          $("#homesite").append(data[0].total + " commits");
         }
                  ).error(function() {
           console.log("GitHub API down?");
