@@ -63,6 +63,13 @@
       .footer.segment {
         padding: 5em 0em;
       }
+      #home .ui.inverted.segment {
+          background: url(img/bg.png) repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
       .secondary.pointing.menu .toc.item {
         display: none;
       }
@@ -106,7 +113,7 @@
         color: darkorange!important;
       }
       #home .masthead {
-        background: url(img/bg.min.jpg) no-repeat center center fixed;
+        background: url(img/bg.png) repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -158,6 +165,10 @@
         50% {
           opacity: 0.0;
         }
+      }
+
+      #home .ui.vertical.stripe p {
+          line-height: 1.7em;
       }
     </style>
     <script src="js/jquery.min.js">
@@ -279,7 +290,7 @@
                 </a>
                 <a href="https://www.codingame.com/profile/5d2c6437d6a43dd0994f1b5b74c3d92f4640941" class="item">
                   <i class="code icon">
-                  </i> CodeinGame
+                  </i> CodinGame
                 </a>
               </div>
             </div>
@@ -288,14 +299,14 @@
       </div>
       <div class="ui vertical stripe segment">
         <div class="ui text container">
-          <h3 class="ui header">Skills
+          <h3 class="ui header">Fähigkeiten
           </h3>
           <h4 class="ui horizontal header divider">
-            <a href="#">Programmiersprachen
+            <a href="#">Programmiersprachen &amp; Scriptsprachen
             </a>
           </h4>
           <p>
-            <a class="ui red large label">Python3
+            <a class="ui red large label">Python
             </a>
             <a class="ui red large label">PHP
             </a>
@@ -307,7 +318,43 @@
             </a>
           </p>
           <h4 class="ui horizontal header divider">
-            <a href="#">Auszeichnungssprachen &amp; Protokolle
+            <a href="#">Frameworks
+            </a>
+          </h4>
+          <p>
+            <a class="ui orange large label">JQuery
+            </a>
+            <a class="ui orange large label">Django
+            </a>
+            <a class="ui orange large label">Laravel
+            </a>
+            <a class="ui orange large label">Twig
+            </a>
+            <a class="ui orange large label">Bootstrap
+            </a>
+            <a class="ui orange large label">Semantic-UI
+            </a>
+          </p>
+          <h4 class="ui horizontal header divider">
+            <a href="#">Betriebssysteme &amp; Derivate
+            </a>
+          </h4>
+          <p>
+            <a class="ui green large label">Windows
+            </a>
+            <a class="ui green large label">Windows Server
+            </a>
+            <a class="ui green large label">Ubuntu
+            </a>
+            <a class="ui green large label">Debian
+            </a>
+            <a class="ui green large label">Archlinux
+            </a>
+            <a class="ui green large label">macOS
+            </a>
+          </p>
+          <h4 class="ui horizontal header divider">
+            <a href="#">Auszeichnungssprachen &amp; Sonstiges
             </a>
           </h4>
           <p>
@@ -329,21 +376,17 @@
             </a>
             <a class="ui blue large label">Markdown
             </a>
-          </p>
-          <h4 class="ui horizontal header divider">
-            <a href="#">Frameworks
+            <a class="ui blue large label">Wordpress
             </a>
-          </h4>
-          <p>
-            <a class="ui orange large label">JQuery
+            <a class="ui blue large label">Jekyll
             </a>
-            <a class="ui orange large label">Django
+            <a class="ui blue large label">Apache2
             </a>
-            <a class="ui orange large label">Laravel
+            <a class="ui blue large label">Nginx
             </a>
-            <a class="ui orange large label">Bootstrap
+            <a class="ui blue large label">MySQL
             </a>
-            <a class="ui orange large label">Semantic-UI
+            <a class="ui blue large label">MariaDB
             </a>
           </p>
         </div>
@@ -513,7 +556,7 @@
                 <img src="https://i.imgur.com/0H0Ryic.png">
               </div>
               <div class="content">
-                <div class="header">Metacritic & Steam Score Scraper
+                <div class="header">Metacritic &amp; Steam Score Scraper
                 </div>
                 <div class="meta">
                   <a class="group">PHP
